@@ -8,4 +8,6 @@
 */
 
 add_filter( 'the_title', function ($title) { return "";});
+
+add_filter( 'widget_posts_args', function ($args) { return "";});
 ?>
